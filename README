@@ -1,0 +1,56 @@
+# APLICAÇÃO PARA GERENCIAMENTO DE MERCADORIAS
+# CASE TESTE MORNINGSTAR
+# Desenvolvido por João Guimarães em 03/2024
+
+Desenvolvido utilizando as versões de Python e PIP:
+- Python - 3.7.5
+- Pip - 23.1.2
+- React - 18.2.0
+-----------------------------------------------------
+Versões de bibliotecas:
+Vide:
+- backend/requirements.txt
+- frontend/package.json
+
+Porta: 
+- backend: 8080 # Podendo ser alterada no final do arquivo app.py
+- frontend: 3000 # Podendo ser alterada no final do arquivo app.py
+
+Flask - Backend:
+- Rotas: backend/app.py
+
+- Comunicação com BD e Funções Search/insert: backend/connections.py
+
+- Configuração do Banco de Dados: backend/config.ini
+
+React - Frontend:
+- Rotas: frontend/src/App.js
+
+- Componentes Localizados em: frontend/src/
+
+- Folhas de Estilo: frontend/src/css/
+
+Banco de Dados:
+- Mysql-8.0
+
+- Dump: BancoDeDados/projeto.sql
+
+- Diagrama: BancoDeDados/diagrama.sql
+
+- Criação do Banco de Dados através do backend.
+
+Aplicação:
+- Login/Senha: admin/admin
+
+Processo de inicialização do Sistema:
+- Crie o ambiente virtual: python -m venv env
+- Instale os requerimentos do python: pip install -r requirements.txt
+- Acesse com: source env/bin/activate (Linux) | .\env\Scripts\Activate (Windows)
+- Instale o React: npm install -g create-react-app
+- Acesse o diretório do frontend: npx create-react-app . 
+- Inicie o servidor de backend: python3 app.py
+- Instale as dependencias do react: npm install
+- Inicie o servidor de frontend: npm start 
+
+
+Aplicação Instalada!
